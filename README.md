@@ -28,7 +28,7 @@ Ghosty.create(ph => {
             // => Opened google?  success
 
             // Get the document title
-            page.evaluate(function () { return document.title; }, result => {
+            page.evaluate(() => document.title, result => {
                 console.log('Page title is ' + result);
                 // => Page title is Google
                 ph.exit();
