@@ -2,6 +2,8 @@
 
 A wrapper around PhantomJS, downloading the Phantom binary.
 
+Using this module, you don't need to take care of installing the PhantomJS binaries. It will automagically install them for you.
+
 ## Installation
 
 ```sh

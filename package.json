@@ -30,7 +30,7 @@
     "ul": "^5.1.0"
   },
   "blah": {
-      "description": "Using this module, you don't need to care about installing the PhantomJS binaries. It will automatically install them for you.",
+      "description": "Using this module, you don't need to take care of installing the PhantomJS binaries. It will automagically install them for you.",
       "documentation": [
           { "h3": "Accessing the PhantomJS path" },
           { "p": "Use `Ghosty.path` to get the PhantomJS path that is used." },
