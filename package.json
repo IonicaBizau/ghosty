@@ -1,0 +1,50 @@
+{
+  "name": "ghosty",
+  "version": "1.0.0",
+  "description": "A wrapper around PhantomJS, downloading the Phantom binary.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/ghosty.git"
+  },
+  "keywords": [
+    "phantomjs",
+    "phantom",
+    "wrapper"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/ghosty/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/ghosty#readme",
+  "dependencies": {
+    "deffy": "^2.1.0",
+    "phantom": "^0.8.3",
+    "phantomjs": "^1.9.18",
+    "sliced": "^1.0.1",
+    "typpy": "^2.2.0",
+    "ul": "^5.1.0"
+  },
+  "blah": {
+      "description": "Using this module, you don't need to care about installing the PhantomJS binaries. It will automatically install them for you.",
+      "documentation": [
+          { "h3": "Accessing the PhantomJS path" },
+          { "p": "Use `Ghosty.path` to get the PhantomJS path that is used." },
+          { "h3": "API" },
+          { "p": [
+              [
+                  "Basically, this library clones the entire functionality of",
+                  "[phantomjs-node](https://github.com/sgentle/phantomjs-node),",
+                  "but makes sure that you don't need to install any binaries",
+                  "(it will do it for you automatically using the",
+                  "[`phantomjs`](https://github.com/Medium/phantomjs) module."
+                ]
+          ]
+          }
+      ]
+  }
+}
