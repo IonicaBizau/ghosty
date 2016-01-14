@@ -1,6 +1,6 @@
-# ghosty [![Support this project][donate-now]][paypal-donations]
+# ghosty [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/ghosty.svg)](https://www.npmjs.com/package/ghosty) [![Downloads](https://img.shields.io/npm/dt/ghosty.svg)](https://www.npmjs.com/package/ghosty) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-A wrapper around PhantomJS, downloading the Phantom binary.
+> A wrapper around PhantomJS, downloading the Phantom binary.
 
 Using this module, you don't need to take care of installing the PhantomJS binaries. It will automagically install them for you.
 
