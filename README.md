@@ -50,6 +50,15 @@ console.log("Using phantomjs located at: " + Ghosty.path);
 // => Using phantomjs located at: /home/.../ghosty/node_modules/phantomjs/lib/phantom/bin/phantomjs
 ```
 
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 ## :memo: Documentation
 
 ### Accessing the PhantomJS path
@@ -59,13 +68,9 @@ Use `Ghosty.path` to get the PhantomJS path that is used.
 ### API
 
 Basically, this library clones the entire functionality of
-
 [phantomjs-node](https://github.com/sgentle/phantomjs-node),
-
 but makes sure that you don't need to install any binaries
-
 (it will do it for you automatically using the
-
 [`phantomjs`](https://github.com/Medium/phantomjs) module.
 
 
