@@ -1,6 +1,6 @@
 {
   "name": "ghosty",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A wrapper around PhantomJS, downloading the Phantom binary.",
   "main": "lib/index.js",
   "scripts": {
@@ -68,6 +68,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
