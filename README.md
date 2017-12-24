@@ -12,7 +12,11 @@ Using this module, you don't need to take care of installing the PhantomJS binar
 ## :cloud: Installation
 
 ```sh
-$ npm i --save ghosty
+# Using npm
+npm install --save ghosty
+
+# Using yarn
+yarn add ghosty
 ```
 
 
@@ -60,21 +64,29 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
 
 ### Accessing the PhantomJS path
 
+
 Use `Ghosty.path` to get the PhantomJS path that is used.
 
 ### API
 
+
 Basically, this library clones the entire functionality of
+
 [phantomjs-node](https://github.com/sgentle/phantomjs-node),
+
 but makes sure that you don't need to install any binaries
+
 (it will do it for you automatically using the
+
 [`phantomjs`](https://github.com/Medium/phantomjs) module.
 
 
